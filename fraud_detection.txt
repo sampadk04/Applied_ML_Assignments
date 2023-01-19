@@ -46,7 +46,7 @@
         - What is the desired outcome (benefits/costs) that we want to see and why?
     2. Quantitative:
         - At least 50% decrease in fraudulent transactions (from 10% to 5%) => 2.5% increase in revenue
-        - at most 1% false positives => 0.1% negative impact on customer experience => 0.1% risk to revenue
+        - at most 1% false negatives => 0.1% negative impact on customer experience => 0.1% risk to revenue
     3. Qualitative:
         - Benefit: significantly lesser fraud => significantly better customer trust and reputation => significantly better revenue
         - Cost: very few false positives => limited risk of negative customer experience => limited risk to revenue
