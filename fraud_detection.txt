@@ -36,9 +36,10 @@
     1. Questions:
         - What are the acceptable risks/budgets and why?
     2. Quantitative:
-        - At most 1% FP => 0.1% negative impact on customer experience => 0.1% risk of revenue loss => acceptable risk for 2.5% potential upside in revenue
+        - At most 1% FN => 0.1% negative impact on customer experience => 0.1% risk of revenue loss => acceptable risk for 2.5% potential upside in revenue
     3. Qualitative:
-        - Can only afford a small FP percent => very small percent of negative customer experience => limited risk of revenue loss => acceptable risk for potential gain in revenue
+        - Minimizing FN is important
+        - Can only afford a small FN percent => very small percent of negative customer experience => limited risk of revenue loss => acceptable risk for potential gain in revenue
 
 - Desired State:
     1. Questions:
@@ -57,7 +58,7 @@
     1. Question:
         - what are the non-ML alternatives and why are they problematic? (pains/missed gains)?
     2. Quantitative:
-        - 60% FP 30% FN => Not detecting enough fraudulent transactions and causing more financial loss and negative customer experience => 5% revenue loss risk
+        - 30% FN 60% FP => Not detecting enough fraudulent transactions and causing more financial loss and negative customer experience => 5% revenue loss risk
     3. Qualitative:
         - classify based on a curated list of keywords => too many FP and FN => very bad customer experience => loss of revenue
 
@@ -65,9 +66,9 @@
     1. Question:
         - What are the advantages (pain relievers/gain creators) of ML solution and why?
     2. Quantitative:
-        - 5% FP 20% FN => 50% decrease in fraudulent transactions (from 10% to 5%) at the expense of 0.1% bad customer experience => 2.5% increase in revenue at the expense of 0.1% risk
+        - 5% FN 20% FP => 50% decrease in fraudulent transactions (from 10% to 5%) at the expense of 0.1% bad customer experience => 2.5% increase in revenue at the expense of 0.1% risk
     3. Qualitative:
-        - much fewer FP and FN => much better customer trust and reputation => much better revenue
+        - much fewer FN and FP => much better customer trust and reputation => much better revenue
 
 - ML feasibility hypothesis:
     1. Question:
