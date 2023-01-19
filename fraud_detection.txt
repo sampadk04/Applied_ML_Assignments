@@ -58,9 +58,11 @@
     1. Question:
         - what are the non-ML alternatives and why are they problematic? (pains/missed gains)?
     2. Quantitative:
-        - 30% FN 60% FP => Not detecting enough fraudulent transactions and causing more financial loss and negative customer experience => 5% revenue loss risk
+        - 30% FN 60% FP => Too many data, inefficient algorithms => Not detecting enough fraudulent transactions and causing more financial loss and negative customer experience => 5% revenue loss risk
     3. Qualitative:
-        - classify based on a curated list of keywords => too many FP and FN => very bad customer experience => loss of revenue
+        - look at transaction details: amount, location, source, etc.
+        - compare with previous transactions: avg transaction
+
 
 - ML value proposition hypothesis:
     1. Question:
