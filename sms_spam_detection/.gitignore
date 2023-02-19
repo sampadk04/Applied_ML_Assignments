@@ -2,7 +2,7 @@
 .DS_Store
 
 # Folders
-data/
+
 
 # Python Cache
 __pycache__/
