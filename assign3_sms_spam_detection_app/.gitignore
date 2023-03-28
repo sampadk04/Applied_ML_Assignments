@@ -9,6 +9,4 @@ __pycache__/
 
 # VSCode Settings
 .vscode/
-
-# file
-/resources.txt
+.pytest_cache/
